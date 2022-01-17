@@ -1,0 +1,15 @@
+Directory Structure 
+  => node_modules (library)
+
+  => public
+    (app entry point - index.html)
+
+  => src
+    => assets (medias / files)
+
+    => components ()
+
+    => app.vue (project main page / first)
+      -html / css / js
+
+    => main.js ()

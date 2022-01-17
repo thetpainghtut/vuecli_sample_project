@@ -1,17 +1,27 @@
 <template>
   <div id="app">
+    <h2>Hello Vue CLI</h2>
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="row">
+      <div class="col">
+        <Testing name="Thet Paing Htut"></Testing>
+      </div>
+      <div class="col">
+        <HelloWorld msg="Welcome to Your Vue.js App"/>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import Testing from './components/Testing.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    Testing
   }
 }
 </script>
@@ -25,4 +35,6 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+
 </style>
